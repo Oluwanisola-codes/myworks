@@ -1,0 +1,179 @@
+:root{
+    --black: rgb(8, 8, 8);
+    --white:rgb(255, 255, 255);
+  
+}
+*{
+font-family: arial;
+    outline: none;
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 52.5%;
+    overflow-x: hidden;
+}
+section{
+    min-height: 30vh;
+}
+header{
+    text-align: center;
+}
+header h1{
+    font-size: 40px;
+}
+.top{
+    text-align: center;
+}
+.top img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+.buttons{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+   align-items: center;
+   justify-content: center;
+}
+.btn{
+background-color: black;
+color: white;
+    text-align: center;
+    width: 180px;
+    height: 40px;
+    padding: 8px;
+  
+}
+.btn:hover{
+    color: black;
+    background-color: blue;
+}
+.buttons a{
+    font-size: 14px;
+}
+
+.testheader h1{
+    color: blue;
+font-size: 40px;
+padding: 13px;
+text-align: center;
+}
+.test1{
+    display: flex;
+    flex-direction: column;
+   gap: 4rem;
+  align-items: center;
+  justify-content: center;
+  padding: 8px;
+}
+.test2{
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    align-items: center;
+    justify-content: center;
+    padding: 16px;
+}
+
+.nizzle h4{
+    font-size: 14px;
+    text-align: center;
+}
+.nizzle p{
+    color: white;
+    font-size: 14px;
+}
+.nizzleimg{
+    text-align: center;
+}
+.nizzleimg img{
+width: 100px;
+height: 100px;
+border-radius: 50%;
+}
+.box{
+    background-color: blue;
+    text-align: center;
+    width: 300px;
+    height: auto;
+    padding: 14px 14px;
+    border-radius:4rem;
+   
+}
+
+
+.about1 h1{
+font-size: 40px;
+text-align: center;
+padding: 13px;
+color: blue;
+}
+.about2 p{
+    text-align: center;
+    font-size: 22px;
+    font-family: helvetica;
+}
+
+.work1{
+    display: flex;
+  padding: 16px;
+    gap: 4rem;
+}
+
+.container-img{
+    text-align: center;
+    padding: 10px;
+}
+.container-img img{
+    width: 280px;
+    height: 260px;
+}
+.container-btn{
+    background-color: black;
+    border: 1px solid white;
+    width: 100px;
+    height: 30px;
+    padding: 5px 5px;
+    text-align: center;
+    margin-inline: 12rem;
+  
+}
+.container-btn a{
+font-size: 14px;
+color: white;
+
+}
+.container-btn:hover{
+background-color:blue;
+color: black;
+}
+.contact{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+}
+.contact p{
+    font-size: 14px;
+}
+@media  screen and (max-width:600px) {
+    .work1{
+        display: flex;
+      padding: 16px;
+        gap: 4rem;
+        flex-direction: column;
+    }
+    .testimonials{
+        display: flex;
+        gap: 14rem;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    }
+    
+}
